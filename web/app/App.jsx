@@ -51,6 +51,7 @@ import PrivateKeyActions from "actions/PrivateKeyActions";
 import Console from "./components/Console/Console";
 import ReactTooltip from "react-tooltip";
 import Invoice from "./components/Transfer/Invoice";
+import ConnectWallet from "./components/ConnectWallet";
 import ChainStore from "api/ChainStore";
 import {BackupCreate, BackupVerify, BackupRestore} from "./components/Wallet/Backup";
 import WalletChangePassword from "./components/Wallet/WalletChangePassword"
@@ -301,6 +302,7 @@ let routes = (
         <Route name="console" path="console" component={Console}/>
         <Route name="transfer" path="transfer" component={Transfer}/>
         <Route name="invoice" path="invoice/:data" component={Invoice}/>
+        <Route name="connect" path="connect/:data" component={ConnectWallet}/>
         <Route name="markets" path="explorer/markets" component={Markets}/>
         <Route name="exchange" path="market/:marketID" component={Exchange}/>
         <Route name="settings" path="settings" component={Settings}/>
