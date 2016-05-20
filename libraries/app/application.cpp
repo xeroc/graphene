@@ -149,8 +149,6 @@ namespace detail {
          else
          {
             vector<string> seeds = {
-               "faucet.bitshares.org:1776",
-               "bitshares.openledger.info:1776",
                "blocktrades.us:1776",
                "seed01.bitsharesnodes.com:1776", // wackou
                "seed02.bitsharesnodes.com:1776", // wackou
@@ -171,7 +169,8 @@ namespace detail {
                "84.238.140.192:42570",   // emski
                "46.226.12.230:1984",     // spectral
                "191.237.252.181:1776",   // Fox
-               "128.199.143.47:2015"     // Harvey
+               "128.199.143.47:2015",    // Harvey
+               "seeds.bitshares.eu:1776" // provided by BitShares.eu, powered by @pc: http://seeds.quisquis.de/bitshares.html
             };
             for( const string& endpoint_string : seeds )
             {
