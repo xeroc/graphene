@@ -23,8 +23,8 @@
  */
 #pragma once
 
-#define GRAPHENE_SYMBOL "CORE"
-#define GRAPHENE_ADDRESS_PREFIX "GPH"
+#define GRAPHENE_SYMBOL "SCNRFP"
+#define GRAPHENE_ADDRESS_PREFIX "SCNRFP"
 
 #define GRAPHENE_MIN_ACCOUNT_NAME_LENGTH 3
 #define GRAPHENE_MAX_ACCOUNT_NAME_LENGTH 63
@@ -34,7 +34,7 @@
 
 #define GRAPHENE_MAX_SHARE_SUPPLY int64_t(1000000000000000ll)
 #define GRAPHENE_MAX_PAY_RATE 10000 /* 100% */
-#define GRAPHENE_MAX_SIG_CHECK_DEPTH 2
+#define GRAPHENE_MAX_SIG_CHECK_DEPTH 4
 /**
  * Don't allow the committee_members to publish a limit that would
  * make the network unable to operate.
